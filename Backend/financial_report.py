@@ -37,7 +37,7 @@ except Exception:
     log_to_db=None
 
 warnings.filterwarnings("ignore")
-logging.getLogger("autogen").setLevel(logging.ERROR)
+logging.getLogger("autogen").setLevel(logging.WARNING)
 logging.getLogger("autogen.oai.client").setLevel(logging.ERROR)
 
 try:
